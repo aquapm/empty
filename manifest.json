@@ -1,0 +1,25 @@
+{
+    "name": "empty",
+    "short_desc": "Empty project",
+    "version": 1,
+    "standalone": true,
+    "in_umbrella": true,
+    "options": [],
+    "files": {
+        "base": [
+            "config/config.exs",
+            ".formatter.exs",
+            ".gitignore",
+            "mix.exs",
+            "README.md",
+            "lib"
+            
+        ],
+        "test": [
+            "config/test.exs",
+            "config/dev.exs",
+            "config/prod.exs",
+            "test/test_helper.exs"
+        ]
+    }
+}
