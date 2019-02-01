@@ -1,3 +1,3 @@
 use Mix.Config
 
->%= if @test %>import_config "#{Mix.env()}.exs"<% end %>
+<%= if @test do %>import_config "#{Mix.env()}.exs"<% end %>
