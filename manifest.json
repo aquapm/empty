@@ -21,7 +21,7 @@
             "test/test_helper.exs"
         ],
         "in_standalone?": [
-            ".gitignore"
+            ".gitignore<% :evaluate_gitignore %>"
         ]
     }
 }
